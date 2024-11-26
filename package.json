@@ -10,5 +10,8 @@
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
