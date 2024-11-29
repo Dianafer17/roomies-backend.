@@ -2,7 +2,7 @@ const { Pool } = require('pg');
 
 // URL de conexión a la base de datos en Railway
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL || 'postgresql://username:password@host:5432/database', // Reemplaza con tu URL real de PostgreSQL
+  connectionString: process.env.DATABASE_URL || 'postgresql://postgres:eEpoCxvTHYcBqrTsPaytKUecQiGRZAnL@junction.proxy.rlwy.net:34053/railway', // Reemplaza con tu URL real de PostgreSQL
   ssl: {
     rejectUnauthorized: false, // Necesario para conexiones seguras
   },
